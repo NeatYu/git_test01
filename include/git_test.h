@@ -7,7 +7,7 @@ class GitTest {
 
 private:
 	int count_;
-    int ptr_;
+    int *ptr_;
 protected:
 public:	
 	GitTest();
