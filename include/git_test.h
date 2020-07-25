@@ -6,12 +6,14 @@
 class GitTest {
 
 private:
-	int count;
+	int count_;
+    int ptr_;
 protected:
 public:	
 	GitTest();
 	~GitTest();
 	void GitPrint();
+    
 }
 
 #endif

@@ -6,6 +6,8 @@ using namespace std;
 GitTest::GitTest()
 {
     cout << "this is GitTest类构造函数" << endl;
+    count_ = 0;
+    ptr = new (cout * sizeof(int));
 }
 
 
