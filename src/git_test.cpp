@@ -13,7 +13,6 @@ GitTest::GitTest()
 
 GitTest::~GitTest()
 {
-    cout_ = 0;
     delete ptr;
     cout << "这是GitTest 类的析构函数" << endl;
 }
